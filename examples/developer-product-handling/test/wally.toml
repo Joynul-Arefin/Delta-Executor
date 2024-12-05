@@ -1,0 +1,15 @@
+[package]
+name = "lapis/developer-product-example-tests"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+private = true
+
+[dependencies]
+Midori = "nezuo/midori@0.1.3"
+Promise = "evaera/promise@4.0.0"
+Sift = "csqrl/sift@0.0.8"
+t = "osyrisrblx/t@3.0.0"
+
+[server-dependencies]
+DataStoreServiceMock = "nezuo/data-store-service-mock@0.3.5"

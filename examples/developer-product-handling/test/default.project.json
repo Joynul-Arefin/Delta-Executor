@@ -1,0 +1,27 @@
+{
+  "name": "developer-product-handling-tests",
+  "tree": {
+    "$className": "DataModel",
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "ReplicatedStorage": {
+      "Packages": {
+        "Lapis": {
+          "$path": "../../../"
+        },
+        "$path": "Packages"
+      }
+    },
+    "ServerScriptService": {
+      "ServerPackages": {
+        "$path": "ServerPackages"
+      },
+      "Test": {
+        "$path": "src"
+      }
+    }
+  }
+}

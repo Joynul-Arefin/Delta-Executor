@@ -1,0 +1,14 @@
+[package]
+name = "nezuo/lapis"
+version = "0.3.3"
+registry = "https://github.com/UpliftGames/wally-index"
+exclude = ["**"]
+include = ["src", "src/*", "default.project.json", "wally.toml", "LICENSE"]
+realm = "shared"
+
+[dependencies]
+Promise = "evaera/promise@4.0.0"
+
+[dev-dependencies]
+Midori = "nezuo/midori@0.1.4"
+DataStoreServiceMock = "nezuo/data-store-service-mock@0.3.7"
